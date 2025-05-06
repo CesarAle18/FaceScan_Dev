@@ -1,0 +1,45 @@
+name: front
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.10.0+4
+  permission_handler: ^12.0.0+1
+  path_provider: ^2.0.15
+  google_fonts: ^5.0.0
+  cupertino_icons: ^1.0.8
+  http: ^1.3.0
+  path: ^1.8.2
+  shared_preferences: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.3
+  flutter_native_splash: ^2.2.16
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/face_scan_bg0A192F_tolerant.png"
+
+flutter_native_splash:
+  color: "#0A192F"
+  image: assets/face_scan_bg0A192F_tolerant.png
+  android_gravity: center
+  ios_content_mode: scaleAspectFill
+  web: false
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/face_scan_bg0A192F_tolerant.png
