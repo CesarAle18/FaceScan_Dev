@@ -415,7 +415,7 @@ class _IngresarScanScreenState extends State<IngresarScanScreen> {
                   width: size.width * 0.8,
                   padding: const EdgeInsets.all(16),
                   decoration: BoxDecoration(
-                    color: Colors.lightBlue.shade100,
+                    color: const Color.fromARGB(255, 30, 50, 59),
                     borderRadius: BorderRadius.circular(12),
                   ),
                   child: Column(
